@@ -141,6 +141,7 @@ public class TileGenerator : MonoBehaviour
         doSim(numR);
     }
 
+    [Button("Save Map")]
     public void saveMap()
     {
         string savename = "tilemap_g_" + Random.Range(0, 1000);
