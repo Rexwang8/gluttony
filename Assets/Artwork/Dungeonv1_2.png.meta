@@ -112,7 +112,7 @@ TextureImporter:
         width: 11
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,7 +133,7 @@ TextureImporter:
         width: 9
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -141,6 +141,48 @@ TextureImporter:
       bones: []
       spriteID: e5495ae53a549244392afdfb785bad87
       internalID: -475679219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467d07019fc98ae48bd62ad9254ea471
+      internalID: 1242194863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6f406392c5bd6489692f74d5650c6b
+      internalID: -1650703238
       vertices: []
       indices: 
       edges: []
@@ -157,7 +199,9 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       DummySlime: -475679219
+      wall_0: 1242194863
       Dungeonv1_2_0: -1725303557
+      floor_0: -1650703238
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
